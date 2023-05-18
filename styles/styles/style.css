@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    margin: 0;
+   
+}
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin: 0 auto;
+}
+.conteiner_line {
+
+    width: 100%;
+    margin: 18px auto;
+    border-bottom: 1px solid #F2E8E8;
+    margin-top: 15px;
+}
+.conteiner-banner {
+width: 100%;
+background: url(../images/background.png) no-repeat center top /cover;
+margin: 15px 0 90px 0;
+}
+
+.conteiner-banner-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+
+width: 130px;
+height: 36px;
+background: #6CB71D;
+}
+.location {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.location-img {
+margin-right: 7px;    
+}
+.telephone-img {
+margin-right: 9px;    
+}
+.location-txt {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+color: #333333;
+margin-left: 7px;
+}
+
+/* Детокс-программа комплексного очищения организма от 1099 руб */
+
+
+.conteiner-banner-list-text {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 64px;
+
+color: #6CB71D;
+margin: 0;
+
+}
+.conteiner-banner-list-text-line {
+   height: 65px; 
+}
+.conteiner-banner-list-text-line-white {
+font-family: 'Roboto';
+font-style: normal;
+font-size: 24px;
+color: #ffffff;
+margin-top: 15px;
+}
+/* Rectangle 4 */
+
+.button {
+    
+display: inline-block;
+text-decoration: none;
+color: #fff;
+border: 0px solid #6CB71D;
+    
+font-size: 15px;
+
+transition: all 0.8s ease;
+background: #6CB71D;
+border-radius: 10px;
+width: 175px;
+height: 44px;
+font-size: 18px;
+margin: 10px 0 0 0;
+
+
+}
+.text-button {
+margin: 12px auto;    
+}
+.conteiner_menu {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+
+
+    
+}
+.conteiner_menu_el {
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+margin-right: 32px;
+}
+.conteiner_menu_el_basket {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+    
+}
+.menu_el_basket_img {
+margin-right: 20px;    
+}
+.conteiner_block {
+display: flex;
+flex-direction: column;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+width: 205px;
+justify-content: center;
+    
+    
+}
+.conteiner_block img {
+width: 90px;
+height: 90px;
+margin: 0 auto;
+
+}
+.conteiner_block p {
+text-align: center;   
+}
+.conteiner_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1180px;
+    margin: 0 auto;
+}
+.conteiner_diet {
+display: flex;
+flex-direction: column;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+margin: 100px auto;
+width: 1180px;
+
+    
+}
+.conteiner_diet_menu {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin-top: 40px;
+
+    
+}
+.conteiner_diet_menu_blok {
+display: flex;
+flex-direction: column;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px; 
+width: 280px;
+    
+}
+.conteiner_diet_menu_blok img {
+    border-radius: 10px;
+}
+.conteiner_diet_menu_blok_el {
+margin-top: 18px;
+}
+.conteiner_diet_menu_blok_el_button {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 18px;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+width: 280px;
+
+
+}
+.button_diet {
+    
+display: inline-block;
+text-decoration: none;
+color: #fff;
+border: 0px solid #6CB71D;
+    
+font-size: 15px;
+
+transition: all 0.8s ease;
+background: #6CB71D;
+border-radius: 10px;
+width: 136px;
+height: 35px;
+font-size: 18px;
+
+
+}
+.text-button_diet {
+margin: 6px auto;    
+}
+.conteiner_about {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 130px auto;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+width: 1180px;
+    
+}
+.conteiner_about img {
+border-radius: 10px;
+width: 650px;
+
+
+
+}
+.conteiner_about_text {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 18px;
+margin-left: 20px;
+}
+.conteiner_delivery {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 130px auto;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+width: 1180px;
+border: 1px solid #F2E8E8;
+border-radius: 10px;
+
+}
+.conteiner_delivery_text {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 18px;
+margin: 0 80px 0 50px;
+
+    
+}
+.button_delyvery {
+display: inline-block;
+text-decoration: none;
+color: #fff;
+border: 0px solid #6CB71D;
+    
+font-size: 15px;
+
+transition: all 0.8s ease;
+background: #6CB71D;
+border-radius: 10px;
+width: 180px;
+height: 35px;
+font-size: 18px;
+    
+}
+.text-button_delyvery {
+margin: 6px auto;
+text-align: center;
+ 
+}
+.map {
+margin: 0;
+border-left:  1px solid #F2E8E8;
+
+}
+.conteiner_footer {
+width: 100%;
+background: #4B4B4B;
+color: #fff;
+
+}
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1180px;
+margin: 0 auto;
+font-family: 'Roboto';
+font-style: normal;
+    
+}
+.footer_menu {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+margin-top: 35px;
+    
+}
+.footer_menu-el {
+margin: 0 0 10px 0;    
+}
+.footer_line {
+width: 1500px;
+margin: 15px auto;
+border-bottom: 1px solid #FFFFFF;
+opacity: 0.3;
+}
+.text-button_delyvery a {
+text-decoration: none;
+color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
